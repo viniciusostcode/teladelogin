@@ -48,11 +48,11 @@ body{
     color: rgb(255, 255, 255);
     font-size: 53px;
     margin-left: 140px;
-    margin-top: 30px;
+    margin-top: 50px;
     
 }
 
-.estilogin input[type=text] , input[type=password]{
+.estilogin input[type=text] {
     background-color:rgba(255, 255, 255, 0.24);
     border-radius: 5px;
     height: 30px;
@@ -62,7 +62,21 @@ body{
     display: block;
     margin: 0 auto;
     outline: 0;
-    margin-top: 20px;
+    margin-top: -63px;
+}
+
+.estilogin input[type=password]{
+  background-color:rgba(255, 255, 255, 0.24);
+  border-radius: 5px;
+  height: 30px;
+  width: 170px;
+  border: none;
+  opacity: 60%;
+  display: block;
+  margin: 0 auto;
+  outline: 0;
+  margin-top: 10px;
+
 }
 
 /*estilo do botão*/
@@ -95,11 +109,19 @@ body{
 }
 
 /*estilizando placeholder dos inputs*/
-.estilogin input[type=text] , input[type=password] , .estilogin::-webkit-input-placeholder {
+.estilogin input[type=text] , .estilogin::-webkit-input-placeholder {
     background-color: rgb(207, 212, 212); 
     color: #000000;
     font-family: 'Fredoka', sans-serif;
     padding-left: 10px;
+}
+
+.estilogin input[type=password], .estilogin::-webkit-input-placeholder{
+  background-color: rgb(207, 212, 212); 
+  color: #000000;
+  font-family: 'Fredoka', sans-serif;
+  padding-left: 10px;
+
 }
 
 .estilogin h1 {
@@ -112,17 +134,23 @@ body{
 }
 
 .estilogin .iconeuser i {
-    margin-top: 1x;
-    color: rgb(197, 151, 151);
-}
-
-.estilogin .iconesenha i{
-    padding-top: 10;
     color: rgb(255, 255, 255);
+    font-size: 15px;
+   margin-top: 18px;
+   margin-left: 58px;
+    
+}
+.estilogin .iconesenha i{
+    
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  margin-top: 15px;
+  margin-left: 58px;
+  padding-top: 10px;
 }
 
 
-  
+ 
   .particle, .particle:after {
     background: transparent;
   }
@@ -132,6 +160,7 @@ body{
     content: "";
     top: 2560px;
   }
+
   
   .particle-1 {
     animation: animParticle 60s linear infinite;
