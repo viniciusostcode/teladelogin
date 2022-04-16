@@ -83,6 +83,7 @@ body{
 .estilologin input , input[type=button] {
     display: block;
     margin: 0 auto;
+    margin-top: 8px;
     font-family:'Fredoka', sans-serif;
     font-size: 20px;
     color: rgb(255, 255, 255);
@@ -124,13 +125,11 @@ body{
 
 }
 
-.estilogin h1 {
+.estilogin u {
     color: rgb(255, 255, 255);
-    margin-top: -30px;
     margin-left: 85px;
     font-size: 10px;
     font-family: 'Fredoka', sans-serif;
-    padding-bottom: 15px;
 }
 
 .estilogin .iconeuser i {
