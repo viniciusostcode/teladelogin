@@ -53,7 +53,7 @@ body{
 }
 
 .estilogin input[type=text] {
-    background-color:rgba(255, 255, 255, 0.24);
+    background-color:rgba(255, 255, 255, 0.644);
     border-radius: 5px;
     height: 30px;
     width: 200px;
@@ -62,7 +62,7 @@ body{
     display: block;
     margin: 0 auto;
     outline: 0;
-    margin-top: -145px;
+    margin-top: -150px;
     margin-left: 180px;
 }
 
@@ -76,7 +76,7 @@ body{
   display: block;
   margin: 0 auto;
   outline: 0;
-  margin-top: -150px;
+  margin-top: -180px;
   margin-left: 180px;
 }
 
@@ -101,7 +101,7 @@ body{
     margin: 0 auto;
     margin-top: 15px;
     margin-left: 178px;
-    font-family:'Fredoka', sans-serif;
+    font-family:'Smooch Sans', sans-serif;
     font-size: 20px;
     color: rgb(255, 255, 255);
     background: rgb(2,0,36);
@@ -153,40 +153,40 @@ body{
 
 .estilogin .nome h1 {
     color: rgb(255, 255, 255);
-    font-size: 15px;
-    margin-top: 18px;
-    margin-left: 130px;
-    font-family: 'Fredoka', sans-serif;
+    font-size: 18px;
+    margin-top: 9px;
+    margin-left: 140px;
+    font-family: 'Smooch Sans', sans-serif;
     
 }
 .estilogin .email h1{
     
   color: rgb(255, 255, 255);
-  font-size: 15px;
+  font-size: 18px;
   margin-top: 15px;
-  margin-left: 130px;
+  margin-left: 140px;
   padding-top: 10px;
-  font-family: 'Fredoka', sans-serif;
+  font-family: 'Smooch Sans', sans-serif;;
 }
 
 .estilogin .senha h1{
   color: rgb(255, 255, 255);
-  font-size: 15px;
+  font-size: 18px;
   margin-top: 15px;
-  margin-left: 63px;
+  margin-left: 81px;
   padding-top: 3px;
-  font-family: 'Fredoka', sans-serif;
+  font-family: 'Smooch Sans', sans-serif;;
 
 
 }
 
 .estilogin .Confirmsenha h1{
   color: rgb(255, 255, 255);
-  font-size: 15px;
+  font-size: 18px;
   margin-top: 15px;
-  margin-left: 35px;
+  margin-left: 56px;
   padding-top: 10px;
-  font-family: 'Fredoka', sans-serif;
+  font-family: 'Smooch Sans', sans-serif;;
 
 
 }
@@ -317,3 +317,7 @@ body{
     }
   }
   
+
+  .footer{
+    color : white;
+  }

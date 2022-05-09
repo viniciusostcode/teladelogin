@@ -62,7 +62,7 @@ body{
     display: block;
     margin: 0 auto;
     outline: 0;
-    margin-top: -63px;
+    margin-top: -60px;
 }
 
 .estilogin input[type=password]{
@@ -142,11 +142,11 @@ body{
 .estilogin .iconesenha i{
     
   color: rgb(255, 255, 255);
-  font-size: 15px;
-  margin-top: 15px;
-  margin-left: 58px;
-  padding-top: 10px;
+    font-size: 15px;
+   margin-top: 18px;
+   margin-left: 58px;
 }
+
 
 
  
@@ -269,5 +269,13 @@ body{
     to {
       text-shadow: 0 0 5px rgba(255, 255, 255, 0.3), 0 0 10px rgba(255, 255, 255, 0.3), 0 0 15px rgba(255, 255, 255, 0.3), 0 0 20px #FF1177, 0 0 35px #FF1177, 0 0 40px #FF1177, 0 0 50px #FF1177, 0 0 75px #FF1177;
     }
+  }
+
+  .footer{
+    color: white;
+    margin: 300px;
+    font-family: 'Smooch Sans', sans-serif;
+    font-size: 20px;
+    text-align: center;
   }
   
