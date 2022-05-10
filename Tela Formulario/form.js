@@ -87,7 +87,7 @@ function Validar(){
     setTimeout(function() {
         // Do something after 5 seconds
         location.reload();//reload page
-  }, 50000)
+  }, 1000)
   Swal.fire({
     position: 'top',
     icon: 'success',
